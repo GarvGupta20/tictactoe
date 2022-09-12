@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
+  "homepage":"http://GarvGupta20.github.io/tictactoe",
   "scripts": {
     "start": "vite",
     "preview": "vite preview",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "lint": "eslint src/**/*.jsx",
     "format": "prettier --write src/**/*.jsx",
     "format:lint": "npm run format && npm run lint",
