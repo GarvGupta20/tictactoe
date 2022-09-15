@@ -32,6 +32,12 @@ import "./index.css";
 
 The Babel preset [babel-preset-nano-react-app](https://github.com/nano-react-app/babel-preset-nano-react-app) is used to support the same transforms that Create React App supports.
 
+
+
+
+
+Domain where the project is hosted : https://garvgupta20.github.io/tictactoe/
+
 The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
 
 
